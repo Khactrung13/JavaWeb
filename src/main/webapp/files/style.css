@@ -1,0 +1,253 @@
+body{
+	margin: 0;
+	padding: 0;	
+}
+.wrapper{
+
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+}
+.wrapper_chitiet{
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+.chitiet_sanpham{
+	float: right;
+    width: 60%;
+}
+.header{
+	background-image:none;
+	background-repeat: no-repeat;
+	background-size: 100% 180px;
+	
+	height: 180px;
+	width: 100%;
+}
+.menu {
+    height: 50px;
+    width: 100%;
+    float: left;
+    background: burlywood;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    width: 96%;
+    border: 1px;
+    list-style: none;
+    line-height: 27px;
+    margin: 0 auto;
+    float: right;
+}
+ul.list_menu li:hover{
+	background: burlywood;
+}
+ul.list_menu li {
+    float: left;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #3333ff;
+}
+.main {
+    /* border: 1px solid #00ff80; */
+    height: 780px;
+    width: 100%;
+}
+
+.sidebar {
+    /* border: 1px solid #000066; */
+    height: auto;
+    width: 20%;
+   
+    margin-left: 5px;
+    float: left;
+    background: antiquewhite;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px ;
+    list-style : none;
+    line-height: 27px;
+}
+ul.list_sidebar li:hover{
+	background: cadetblue;
+}
+ul.list_sidebar li {
+
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding: 3px; */
+    /* margin: 5px; */
+}
+.maincontent {
+    height: auto;
+    /* width: 79%; */
+    /* margin-top: 5px; */
+    margin-left: 3px;
+    float: right;
+}
+ul.product_list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+}
+
+ul.product_list li {
+    width: 15%;
+    border: 1px dashed #000;
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-right: 5px;
+    margin-bottom: 28px;
+    float: left;
+
+    height: auto;
+}
+ul.product_list li img{
+	height: 150px;
+	width: 100%;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 19px;
+    font-weight: bold;
+}
+p.price {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer {
+    border: 1px solid #efeaec;
+    height: auto;
+    width: 100%;
+    background: darkkhaki;
+}
+p.footer_copyright {
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.clear{
+ 	clear: both;
+}
+input.themgiohang {
+    border: none;
+    background: coral;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+	cursor: pointer;
+}
+p.tongtien {
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+}
+ul.list_trang {
+    padding: 0;
+    margin: 0;
+    /* padding-top: 0px; */
+    padding-left: 550px;
+    list-style: none;
+}
+ul.list_trang li {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    margin-top:unset;
+    background: burlywood;
+}
+ul.list_trang li a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+p.trang {
+    padding-left: 501px;
+}
+ul.baiviet {
+    width: 95%;
+    margin: 5px;
+}
+li.danhmucbaiviet {
+    width: 30%;
+    float: left;
+    list-style: none;
+    text-decoration: none;
+    height: 300px;
+    margin-left: 25px;
+    background: white;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1 solid;
+    background: aliceblue;
+}
+/* Tabs */
+.tabs {
+    width: 60%;
+    background-color: #09F;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 200px;
+}
+  ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+  }
+  ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+    background-color: #08E;
+  }
+  #tabs-nav li a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .tab-content {
+    padding: 10px;
+    border: 5px solid #09F;
+    background-color: #FFF;
+  }
+  .hinhanh_sanpham {
+    float: left;
+    width: 30%;
+    /* border: 1px solid; */
+}
+  
